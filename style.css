@@ -108,6 +108,7 @@ nav a {
   max-width: 100%;
   height: auto;
   justify-content: center;
+  
 }
 .ekmatr{ color: rgb(8, 230, 8);
   font-size: 1.4em;
@@ -206,4 +207,13 @@ nav a {
   width: 100%;
   height: 900px;
   border: none;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
