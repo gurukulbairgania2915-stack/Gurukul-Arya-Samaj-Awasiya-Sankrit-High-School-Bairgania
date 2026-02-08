@@ -1,0 +1,209 @@
+       
+       nav {
+    background: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+    span {
+            color: aliceblue;
+            background-color: blue;
+        }
+        h1{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 2.7em;
+        }
+        h2{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 1.7em;
+        }
+        p{
+            color: white;
+            background-color: black;
+        }
+        *{
+            margin: 0;
+            padding: 5;
+            border: 6;
+        }
+        .blink-udise{
+  font-size: 30px;
+  font-weight: 700;
+  color: #d60000;
+  text-align: center;
+  animation: blinkText 1.5s infinite;
+}
+
+@keyframes blinkText {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.3;}
+}
+.hero{
+    text-align: center;
+    color: blueviolet;
+    font-size: 2.3em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admission-form-box{
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  font-family: Poppins, Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.admission-form-box h2{
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1a237e;
+}
+
+.admission-form-box label{
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.admission-form-box input,
+.admission-form-box select,
+.admission-form-box textarea{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.admission-form-box button{
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #1a237e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admission-form-box button:hover{
+  background: #0d47a1;
+}
+.images{
+  margin-top: 20px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.ekmatr{ color: rgb(8, 230, 8);
+  font-size: 1.4em;
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+  text-underline-offset: initial;
+}
+.palakvideo{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.madhymaa{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.slogan{
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+  font-style: oblique;
+  margin-top: 20px;
+}
+.model{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.teacherday{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.subh1{
+  font-size: 40px;
+  color: rgb(24, 233, 5);
+  text-align: center;
+  font-style: oblique;
+  margin-top: 20px;
+}
+.basant{
+   display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.republic{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.shastri{
+   display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.contact-btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+.urgent{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+}
+.form-container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.form-container iframe {
+  width: 100%;
+  height: 900px;
+  border: none;
+}
